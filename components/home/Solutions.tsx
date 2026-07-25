@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { solutionsList } from "@/data";
-import { ArrowRight, Lock, Send, PenTool, Wallet, IdCard, Settings } from "lucide-react";
+import { Lock, Send, PenTool, Wallet, IdCard, Settings } from "lucide-react";
 
 const iconMap = {
   Lock,
@@ -50,7 +50,7 @@ export default function Solutions() {
             transition={{ delay: 0.2 }}
             className="text-gray-500 text-lg font-medium leading-relaxed max-w-3xl mx-auto"
           >
-            TRUEIGTECH's iGaming solutions deliver white label, turnkey, and customized platforms across the USA, UK, Germany, Turkey, Malta, and beyond. We manage every technical and regulatory aspect to ensure your platform thrives.
+            TRUEIGTECH&apos;s iGaming solutions deliver white label, turnkey, and customized platforms across the USA, UK, Germany, Turkey, Malta, and beyond. We manage every technical and regulatory aspect to ensure your platform thrives.
           </motion.p>
         </div>
 

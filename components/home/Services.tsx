@@ -110,6 +110,7 @@ export default function Services() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-brand-primary/20 to-brand-secondary/20 rounded-[3rem] blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                 
                 <div className="relative h-[450px] lg:h-[600px] w-full rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/50">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img 
                     src={services[activeTab].image} 
                     alt={services[activeTab].title} 

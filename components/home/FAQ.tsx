@@ -94,7 +94,7 @@ export default function FAQ() {
             >
               <Link href="/contact" className="group relative inline-flex items-center justify-center bg-[#0a0f2c] hover:bg-brand-primary text-white px-8 py-3.5 rounded-full font-bold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(108,99,255,0.3)] overflow-hidden w-fit mb-10">
                 <span className="relative z-10 flex items-center">
-                  View All FAQ's
+                  View All FAQ&apos;s
                   <ArrowRight className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-brand-primary to-brand-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

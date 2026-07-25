@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
                 transition={{ delay: 0.2 }}
                 className="text-gray-600 text-lg md:text-xl font-medium leading-relaxed mb-10"
               >
-                We don't just provide software; we deliver the robust, high-performance infrastructure you need to dominate the iGaming industry globally.
+                We don&apos;t just provide software; we deliver the robust, high-performance infrastructure you need to dominate the iGaming industry globally.
               </motion.p>
 
               <motion.div
@@ -65,6 +65,7 @@ export default function WhyChooseUs() {
                 transition={{ delay: 0.3 }}
                 className="hidden lg:flex w-full h-[350px] bg-white shadow-2xl border border-gray-100 rounded-[2rem] items-center justify-center relative overflow-hidden group"
               >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img 
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="TRUEIGTECH Enterprise Dashboard" 

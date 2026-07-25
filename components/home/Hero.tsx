@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
+import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, PlayCircle, Gamepad2, Trophy, Coins, Target, Crown, Dices, Swords, ShieldCheck, Store, MonitorPlay, Code, Gift, Star, Activity, TrendingUp, BarChart3, Users, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, PlayCircle, Gamepad2, Trophy, Coins, Crown, ShieldCheck, Store, MonitorPlay, Code, Gift, ChevronLeft, ChevronRight } from "lucide-react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, EffectFade, Navigation } from 'swiper/modules';
 
@@ -211,10 +211,10 @@ export default function Hero() {
           delay: 6000,
           disableOnInteraction: false,
         }}
-        navigation={{
+        /* navigation={{
           nextEl: '.swiper-button-next-custom',
           prevEl: '.swiper-button-prev-custom',
-        }}
+        }} */
         /* pagination={{
           clickable: true,
           renderBullet: function (index, className) {
@@ -223,7 +223,7 @@ export default function Hero() {
         }} */
         className="w-full h-full absolute inset-0 z-10"
       >
-        {slides.map((slide, index) => {
+        {slides.map((slide) => {
           return (
             <SwiperSlide key={slide.id} className="relative w-full h-full flex items-center">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-12 md:pt-0">
@@ -292,6 +292,7 @@ export default function Hero() {
                         
                         {/* Main Image */}
                         <div className="absolute inset-4 rounded-[2rem] overflow-hidden shadow-2xl z-10 border border-white/5">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img src={slide.image} alt={slide.title} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f25]/90 via-[#0a0f25]/20 to-transparent"></div>
                         </div>
@@ -346,6 +347,7 @@ export default function Hero() {
                         
                         {/* Main Image */}
                         <div className="absolute inset-4 rounded-[2rem] overflow-hidden shadow-2xl z-10 border border-white/5">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img src={slide.image} alt={slide.title} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f25]/90 via-[#0a0f25]/30 to-transparent"></div>
                         </div>
@@ -394,13 +396,15 @@ export default function Hero() {
         })}
       </Swiper>
 
-      {/* Custom Navigation Buttons */}
+      {/* Custom Navigation Buttons (Temporarily disabled) */}
+      {/* 
       <div className="swiper-button-prev-custom absolute left-2 md:left-4 xl:left-6 top-1/2 -translate-y-1/2 z-50 w-12 h-12 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/20 border border-white/10 backdrop-blur-md cursor-pointer transition-all duration-300 hover:scale-110 text-white shadow-lg">
         <ChevronLeft className="w-6 h-6" />
       </div>
       <div className="swiper-button-next-custom absolute right-2 md:right-4 xl:right-6 top-1/2 -translate-y-1/2 z-50 w-12 h-12 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/20 border border-white/10 backdrop-blur-md cursor-pointer transition-all duration-300 hover:scale-110 text-white shadow-lg">
         <ChevronRight className="w-6 h-6" />
-      </div>
+      </div> 
+      */}
 
       {/* Custom Global CSS for swiper bullets (Commented out per request) */}
       {/* 
