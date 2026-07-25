@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { Users, Target, Shield, Trophy, Phone } from "lucide-react";
 import Link from "next/link";
-import WhyChooseUs from "@/components/home/WhyChooseUs";
 
 export const metadata = {
   title: "About Us | TRUEIGTECH",

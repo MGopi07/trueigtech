@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, PlayCircle, Gamepad2, Trophy, Coins, Crown, ShieldCheck, Store, MonitorPlay, Code, Gift, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, PlayCircle, Gamepad2, Trophy, Coins, Crown, ShieldCheck, Store, MonitorPlay, Code, Gift } from "lucide-react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, EffectFade, Navigation } from 'swiper/modules';
 

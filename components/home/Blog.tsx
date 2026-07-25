@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
 import { motion } from "framer-motion";
 import { Tag, Calendar, MessageCircle, ArrowUpRight } from "lucide-react";
